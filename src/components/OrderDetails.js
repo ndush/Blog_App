@@ -7,7 +7,15 @@ const OrderDetails = ({ orderList, setOrderList}) => {
   const [quantity, setQuantity] = useState("");
   
   const VIEW_ORDER = () => {
-  
+    fetch(`http://localhost:9292/orders`)
+      .then((response) => response.json())
+      .then((orders) => {
+        console.log(orders);
+        
+
+        setQuantity(orders.quantity);
+      });
+  };
 
   useEffect(VIEW_ORDER, []);
 
