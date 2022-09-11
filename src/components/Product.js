@@ -4,7 +4,14 @@ import { Link } from "react-router-dom";
 
 function Product({productId,image_url, productName,  productList,setProductList}) {
 
-    
+    const handleDelete = () => {
+        fetch(`http://localhost:9292/products/${productId}`,{
+            method: 'DELETE'
+        }) .then((response) => response.json())
+        .then(() => {
+          setProductList(productList.filter((item) => item.id !== productId))  
+        })
+    }  
   return (
     <div className="col">
       <div className="card h-100 create" style={{ width: 18 + "rem" }}>
