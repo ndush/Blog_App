@@ -11,7 +11,15 @@ const OrderProduct = ({handleAddNewOrder}) => {
           quantity:quantity,
         };
 
-        
+        fetch('http://localhost:9292/orders', {
+            method: 'POST',
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify(order)
+        }) .then((response) => response.json())
+        .then((order) => { console.log(order)
+            handleAddNewOrder(order);
+        })
+    }
 
     return ( 
         <div className="create">
