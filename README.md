@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Sales_App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
+This is a simple app for users to view different products and their detailed info including the supplier, unit price, quantity remaining from which one can be able to make an informed desision for purchase
+# languages
+Its coded using ReactJs, Bootstrap CSS and HTML
 
-## Available Scripts
+## Setup
+To run the application, run npm start
+ ##The base URL for the API 
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
+A user can: 
+1.Add a product
+2.Remove a product
+3.View a product
+4.Delete a product
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Getting Started with Sales_App (with REACT)
 
-### `npm test`
+# Description
+Let us get a deep dive into how to configure routing in REACT.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Getting Started
+In order for you to use the content on this repo, ensure you have the following:
 
-### `npm run build`
+- A computer that runs on either of the following; (Windows 7+, Linux, Mac OS)
+- nodejs 9.0+
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To use this repo on your machine requires some simple steps
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Alternative One
 
-### `npm run eject`
+- Open a terminal / command line interface on your computer
+- Clone the repo by using the following:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+        git clone git@github.com:ndush/sales_app.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Be patient as it creates a copy on your local machine for you.
+- Change directory to the repo folder:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+        cd sales_app
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- (Optional) Open it in ``Visual Studio Code``
 
-## Learn More
+        code .
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- (Alternate Option) Open it in any editor of your choice.
+- Hurray! You are one step closer to being as intelligent as Einstein.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Alternative Two
 
-### Code Splitting
+- On the top right corner of this page there is a button labelled ``Fork``.
+- Click on that button to fork the repo to your own account.
+- Take on the process in ``Alternative One`` above.
+- Remember to replace your username when cloning.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+        git clone https://github.com/your-username-here/sales_app
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Running the application
 
-### Making a Progressive Web App
+Running the application is very straight forward. You can use the following steps to run the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Install required dependencies from npm
 
-### Advanced Configuration
+      npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Run the application on the browser
 
-### Deployment
+      npm start
+# Authors
+This project was done to by:
+- [Damaris Muange]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# License
+The project is licensed under MIT License.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+  
