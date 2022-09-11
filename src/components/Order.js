@@ -10,7 +10,7 @@ console.log(quantity);
       <div className="card h-100 create" style={{ width: 18 + "rem" }}>
         
         <div className="card-body">
-        
+          <h5 className="card-title">{quantity}</h5>
         </div>
         {/* <div className="card-footer"> */}
         {/* <small className="text-muted">{productQuantity}</small> */}
