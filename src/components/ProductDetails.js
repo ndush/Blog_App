@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import EditProduct from "./EditProduct";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 
 
@@ -49,11 +49,11 @@ export default function ProductDetails({onUpdatedItem,orderId}){
                 <h5>{supplier_name}</h5>
                 <h5>{unit_price}</h5>
             </center>
-            <center>
+            {/* <center>
             <Link to={"/sales/"+ productId+"/order"} className="btn btn-primary">
             Place Order
           </Link>
-            </center>
+            </center> */}
            
            
             <EditProduct onUpdatedItem={onUpdatedItem}/>

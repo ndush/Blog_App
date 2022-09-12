@@ -6,13 +6,12 @@ import Home from "./Home";
 import About from "./About";
 import Footer from "./Footer";
 import ProductDetails from "./ProductDetails";
-import OrderDetails from "./OrderDetails";
-import Order from "./Order";
+
 
 function App() {
   //const [posts, setPosts] = useState([])
   const [productList, setProductList] = useState([]);
-  const [orderList, setOrderList] = useState([])
+  //const [orderList, setOrderList] = useState([])
 
   const POSTS = () => {
     fetch("http://localhost:9292/products")
@@ -77,16 +76,12 @@ function App() {
             path="/sales/:productId"
             element={<ProductDetails onUpdatedItem={handleItemUpdated}  />}
           ></Route>
+          
           {/* <Route
-            exact
-            path="/sales/:orderId"
-            element={<OrderDetails  />}
-          ></Route> */}
-          <Route
             exact
             path="/sales/:productId/order"
             element={<OrderDetails  orderList={orderList} setOrderList={setOrderList} />}
-          ></Route>
+          ></Route> */}
         </Routes>
       </div>
       <Footer />
