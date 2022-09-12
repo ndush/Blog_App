@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sales_app/static/css/main.c4bcce50.css",
+    "main.js": "/sales_app/static/js/main.65c172de.js",
+    "index.html": "/sales_app/index.html",
+    "main.c4bcce50.css.map": "/sales_app/static/css/main.c4bcce50.css.map",
+    "main.65c172de.js.map": "/sales_app/static/js/main.65c172de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4bcce50.css",
+    "static/js/main.65c172de.js"
+  ]
+}
