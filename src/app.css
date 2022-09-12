@@ -10,7 +10,7 @@ html {
   }
   body {
     margin-bottom: 60px; /* Margin bottom by footer height */
-    background-color: #efebe6;
+    background-color: #c89338af;
   }
   .text-center {
     position: absolute;
@@ -82,4 +82,14 @@ html {
     padding: 8px;
     border-radius: 8px;
     cursor: pointer;
+  }
+  .about{
+    height: 95vh;
+    width: 100vw;
+    background-image: url("../public/images/c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+  .pstyle{
+    color: rgb(253, 247, 247);
   }
